@@ -33,8 +33,8 @@ function animal(data) {
     habitat.textContent = data.habitat;
     
     let image_link = document.createAttribute("img");
-    img.setAttribute("src", data.image_link);
-    img.setAttribute("alt", data.name);
+    image_link.setAttribute("src", data.image_link);
+    image_link.setAttribute("alt", data.name);
     
     article.appendChild(name);
     article.appendChild(latin_name);
