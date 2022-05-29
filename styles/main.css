@@ -83,6 +83,10 @@ nav ul li a:hover {
     display: block;
 }
 
+#btn {
+    margin-bottom: 50px;
+}
+
 /* ID Selectors */
 #favorite-foods, #hobbies, #places-lived {
     margin: 0;
@@ -93,9 +97,13 @@ nav ul li a:hover {
     vertical-align: top;
 }
 
+h3 {
+    font-weight: lighter;
+}
 #animal {
-    display: grid;
-    grid-template-columns: 1fr;
+    margin: auto;
+    max-width: 50%;
+    border-style: solid;
 }
 
 /* Media Queries */
@@ -111,10 +119,6 @@ nav ul li a:hover {
     nav ul li {
         display: inline;
         margin: 0 10px;
-    }
-
-    #animal {
-        grid-template-columns: 1fr 1fr;
     }
 }
 
